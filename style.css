@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.product-control{
+    width: 100%;
+    height: 200vh;
+    /* background-color: blue; */
+} 
+
+.product{
+      width: 350px;
+      height: 500px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 50px auto;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+
+    }
+.image{
+    width: 100%;
+    height: 75%;
+}
+.image img{
+    width: 100%;
+    height: 75%;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.dis{
+    width: 100%;
+    height: 25%;
+    position: relative;
+    top: -70px;
+
+}
+.title h4{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.star img{
+    width: 100px;
+    position: relative;
+    top: -30px;
+}
+.price span{
+    width:100px;
+    position: relative;
+    top: -60px;
+}
+.price del{
+    width:100px;
+    position: relative;
+    top: -60px;
+}
+.price p{
+    width:100px;
+    position: relative;
+    top: -60px;
+}
+.price button{
+    width: 200px;;
+    height: 50px;
+    position: relative;
+    left: 60px;
+    top: -80px;
+    background: rgb(6, 103, 239);
+    color: white;
+    font-size: 20px;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.3s ease-in-out;
+}
+.menu span{
+      margin-left: 90px;
+      /* display: block; */
+      position: relative;
+      top: -100px;
+      left: 200px;
+}
+.add-card span{
+    opacity: 1;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background: rgb(83, 10, 168);
+    color: white;
+    font-size: 40px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.3s ease-in-out;
+    top: -400px;
+   margin-left: -100px;
+}
+.product:hover .icon{
+    opacity: 1;
+}
+
+
+
+
